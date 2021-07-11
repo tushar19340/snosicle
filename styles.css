@@ -157,6 +157,7 @@ h1.heading {
 .product-card {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     width: 80%;
+    max-width: 500px;
     margin: auto;
     padding-bottom: 3rem;
 
@@ -165,7 +166,6 @@ h1.heading {
 }
 .product-card img {
     width: 100%;
-    max-width: 500px;
     display: block;
     margin: auto;
     margin-bottom: 3rem;
