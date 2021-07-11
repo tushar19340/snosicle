@@ -67,6 +67,7 @@ h1.heading {
 
 .strips {
     flex: 1;
+    max-width: 200px;
     /* height: 50rem; */
     background-color: green;
 }
@@ -142,6 +143,9 @@ h1.heading {
 
 .flavour-card img {
     width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: auto;
 }
 
 .flavour-card p {
@@ -150,6 +154,9 @@ h1.heading {
 }
 
 @media only screen and (max-width: 900px) {
+    #ice-bg::-webkit-scrollbar{
+        width: 0px;
+    }
     .top-div {
         height: 25vh;
     }
