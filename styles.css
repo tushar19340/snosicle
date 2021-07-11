@@ -159,7 +159,6 @@ h1.heading {
     width: 80%;
     max-width: 500px;
     margin: auto;
-    padding-bottom: 3rem;
 
     border-top-right-radius: 50%;
     transition: border-radius 0.5s;
@@ -168,7 +167,6 @@ h1.heading {
     width: 100%;
     display: block;
     margin: auto;
-    margin-bottom: 3rem;
     border-top-right-radius: 50%;
     transition: border-radius 0.5s;
     border-bottom-left-radius: 50%;
@@ -181,7 +179,7 @@ h1.heading {
 }
 
 .product-card-body {
-    padding: 1rem;
+    padding: 10% 1rem 10% 1rem;
 }
 .product-card p {
     font-family: "Roboto", sans-serif;
