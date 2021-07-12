@@ -186,6 +186,7 @@ h1.heading {
     color: gray;
 }
 
+
 @media only screen and (max-width: 900px) {
     #ice-bg::-webkit-scrollbar{
         width: 5px;
