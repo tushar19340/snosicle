@@ -138,7 +138,11 @@ h1.heading {
     justify-content: space-around;
 }
 .icons img {
-    width: 3rem;
+    width: 8rem;
+    transition: width 0.5s;
+}
+.icons img:hover {
+    width: 10rem;
 }
 
 
@@ -147,6 +151,11 @@ h1.heading {
     max-width: 400px;
     display: block;
     margin: auto;
+
+    transition: width 0.5s;
+}
+.flavour-card:hover img {
+    width: 100%;
 }
 
 .flavour-card p {
@@ -161,7 +170,10 @@ h1.heading {
     margin: auto;
 
     border-top-right-radius: 50%;
-    transition: border-radius 0.5s;
+    transition: width 1s;
+}
+.product-card:hover {
+    width: 90%;
 }
 .product-card img {
     width: 100%;

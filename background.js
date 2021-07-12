@@ -15,7 +15,7 @@ function draw() {
 
     // create a random number of snowflakes each frame
     for (let i = 0; i < 1; i++) {
-        fill("blue");
+        fill("#4760ff");
         snowflakes.push(new snowflake()); // append snowflake object
     }
 
