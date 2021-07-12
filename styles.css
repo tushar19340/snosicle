@@ -127,11 +127,14 @@ h1.heading {
     transform: translateX(-50%);
 }
 
+.follow {
+    width: 100%;
+}
 .follow h2 {
     font-size: 3rem;
 }
 .icons {
-    width: 60%;
+    width: 100%;
     margin: auto;
     margin-top: 3rem;
     display: flex;
@@ -227,6 +230,9 @@ h1.heading {
     }
     .icons img {
         width: 3rem;
+    }
+    .icons img:hover {
+        width: 5rem;
     }
 
 }
