@@ -225,5 +225,8 @@ h1.heading {
     .follow h2 {
         font-size: 1.5rem;
     }
+    .icons img {
+        width: 3rem;
+    }
 
 }
