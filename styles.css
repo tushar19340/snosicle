@@ -51,7 +51,6 @@ body::-webkit-scrollbar {
 .top-div-wrapper {
     position: relative;
     height: fit-content;
-    /* width: 60%; */
 }
 
 h1.heading {
@@ -70,6 +69,7 @@ h1.heading {
     max-width: 200px;
     /* height: 50rem; */
     background-color: white;
+    z-index: -2;
 }
 
 .strips img {
