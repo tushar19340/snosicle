@@ -158,8 +158,13 @@ h1.heading {
     display: flex;
     justify-content: space-around;
 }
+.icons p{
+    font-weight: bold;
+}
 .icons img {
     width: 8rem;
+    display: block;
+    margin: auto;
     transition: width 0.5s;
 }
 .icons img:hover {
@@ -253,6 +258,9 @@ h1.heading {
     }
     .icons img:hover {
         width: 5rem;
+    }
+    .icons p{
+        font-size: 0.5rem;
     }
 
 }
