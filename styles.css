@@ -50,7 +50,7 @@ body::-webkit-scrollbar {
 .dropdown {
     position: fixed;
     top: 1rem;
-    right: 2rem;
+    right: 1rem;
 }
 
 
@@ -112,7 +112,7 @@ h1.heading {
 
 .contact {
     position: relative;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 .contact h2 {
     font-size: 3rem;
@@ -146,7 +146,7 @@ h1.heading {
 
 .follow {
     width: 100%;
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 .follow h2 {
     font-size: 3rem;

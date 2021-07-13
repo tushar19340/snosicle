@@ -13,8 +13,8 @@
             crossorigin="anonymous"
         />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preload" href="https://fonts.googleapis.com" />
+        <link rel="preload" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap"
             rel="stylesheet"
@@ -33,25 +33,64 @@
                 <div class="bg-img">
                     <img src="./assets/snologo-bg.png" alt="" />
                 </div>
-				<div class="dropdown" style="z-index: 2;">
-					<button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-					  HOME
-					</button>
-					<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-					  <li><a class="dropdown-item" href="#products">Products</a></li>
-					  <li><a class="dropdown-item" href="#flavours">Flavours</a></li>
-					  <li><a class="dropdown-item" href="#about">About</a></li>
-					  <li><a class="dropdown-item" href="#contact">Contact</a></li>
-					  <li><a class="dropdown-item" href="#follow">Follow</a></li>
-					</ul>
-				</div>
+                <div class="dropdown" style="z-index: 2">
+                    <button
+                        class="btn btn-warning"
+                        type="button"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-list"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                            />
+                        </svg>
+                    </button>
+                    <ul
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton1"
+                    >
+                        <li>
+                            <a class="dropdown-item" href="#products"
+                                >Products</a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#flavours"
+                                >Flavours</a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#contact">Contact</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#follow">Follow</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="img">
-                <img src="./assets/Sno4.jpg" alt="" />
+                <img src="./assets/Sno4.png" alt="" />
             </div>
 
-            <div id="products" class="top-div" style="background-color: #3fd9b4">
+            <div
+                id="products"
+                class="top-div"
+                style="background-color: #3fd9b4"
+            >
                 <div class="top-div-wrapper text-center">
                     <h1 class="add-font heading">Our Products</h1>
                 </div>
@@ -59,22 +98,17 @@
 
             <div class="wrapper">
                 <div class="strips">
-                    <img src="./assets/strips/strip3.JPG" alt="" />
-                    <img src="./assets/strips/strip1.JPG" alt="" />
+                    <!-- <img src="./assets/strips/strip3.JPG" alt="" />
+                    <img src="./assets/strips/strip1.JPG" alt="" /> -->
+                    <img class="" src="./assets/strips/3strips.png" alt="" />
                     <img
                         class="d-block d-md-none"
-                        src="./assets/strips/strip2.JPG"
+                        src="./assets/strips/4strips.png"
                         alt=""
                     />
                     <img
                         class="d-block d-md-none"
-                        src="./assets/strips/strip1.JPG"
-                        alt=""
-                    />
-
-                    <img
-                        class="d-block d-md-none"
-                        src="./assets/strips/LongStrip.png"
+                        src="./assets/strips/4strips.png"
                         alt=""
                     />
                 </div>
@@ -82,7 +116,10 @@
                     <div class="row row-cols-1 row-cols-md-2 gy-5">
                         <div class="col">
                             <div class="product-card">
-                                <img src="./assets/limited-removebg.png" alt="" />
+                                <img
+                                    src="./assets/limited-removebg.png"
+                                    alt=""
+                                />
                                 <div class="product-card-body">
                                     <h2 class="text-center add-font">
                                         Classic box
@@ -101,7 +138,10 @@
 
                         <div class="col">
                             <div class="product-card">
-                                <img src="./assets/limited-removebg.png" alt="" />
+                                <img
+                                    src="./assets/limited-removebg.png"
+                                    alt=""
+                                />
                                 <div class="product-card-body">
                                     <h2 class="text-center add-font">
                                         Limited edition box
@@ -121,8 +161,11 @@
                 </div>
             </div>
 
-
-            <div id="flavours" class="top-div" style="background-color: #3fd9b4">
+            <div
+                id="flavours"
+                class="top-div"
+                style="background-color: #3fd9b4"
+            >
                 <div class="top-div-wrapper text-center">
                     <h1 class="add-font heading">Our Flavours</h1>
                 </div>
@@ -130,31 +173,11 @@
 
             <div class="wrapper">
                 <div class="strips">
-                    <img src="./assets/strips/strip4.JPG" alt="" />
-                    <img src="./assets/strips/strip5.JPG" alt="" />
-                    <img src="./assets/strips/strip6.JPG" alt="" />
-                    <!-- <img class="d-block d-md-none" src="./assets/strips/strip2.JPG" alt="">
-					<img class="d-block d-md-none" src="./assets/strips/strip1.JPG" alt="">
-					<img class="d-block d-md-none" src="./assets/strips/strip3.JPG" alt=""> -->
-
+                    <img class="" src="./assets/strips/2strips.png" alt="" />
+                    <img class="" src="./assets/strips/strip1.JPG" alt="" />
                     <img
                         class="d-block d-md-none"
-                        src="./assets/strips/LongStrip.png"
-                        alt=""
-                    />
-                    <img
-                        class="d-block d-md-none"
-                        src="./assets/strips/LongStrip.png"
-                        alt=""
-                    />
-                    <img
-                        class="d-block d-md-none"
-                        src="./assets/strips/LongStrip.png"
-                        alt=""
-                    />
-                    <img
-                        class="d-block d-md-none"
-                        src="./assets/strips/LongStrip.png"
+                        src="./assets/strips/very-long-strip.png"
                         alt=""
                     />
                 </div>
@@ -262,31 +285,20 @@
                 </div>
                 <div class="wrapper">
                     <div class="strips">
-                        <img src="./assets/strips/strip2.JPG" alt="" />
                         <img
-                            class="d-block d-md-none"
-                            src="./assets/strips/strip3.JPG"
+                            class="d-none d-md-block"
+                            src="./assets/strips/strip1.JPG"
                             alt=""
                         />
                         <img
                             class="d-block d-md-none"
-                            src="./assets/strips/strip4.JPG"
-                            alt=""
-                        />
-                        <img
-                            class="d-block d-md-none"
-                            src="./assets/strips/strip5.JPG"
-                            alt=""
-                        />
-                        <img
-                            class="d-block d-md-none"
-                            src="./assets/strips/strip6.JPG"
+                            src="./assets/strips/4strips.png"
                             alt=""
                         />
                     </div>
                     <div class="content">
                         <div class="about-text">
-                            Sweet Chills F&B started on the 3'' ofAugust, 2020.
+                            <b>Sweet Chills F&B</b> started on the 3'' ofAugust, 2020.
                             Founded by two women DIVYA JAIN and RIDHI AGARWAL
                             who were very keen on revisiting the old school days
                             with the ice sip-ups, summer afternoons and the fun
@@ -297,7 +309,7 @@
                             took 4 months on Research and Development ofthe
                             flavors, packaging and branding before we finalized
                             the fantastic flavours! And finally, on the 6th of
-                            December, 2020, we launched the first SNOSICLE®️
+                            December, 2020, we launched the first <b>SNOSICLE®️</b>
                             boxes in retail market.
                         </div>
                     </div>
@@ -306,9 +318,8 @@
 
             <div id="contact" class="wrapper">
                 <div class="strips">
-                    <img src="./assets/strips/strip1.JPG" alt="" />
-                    <!-- <img src="./assets/strips/strip3.JPG" alt="" /> -->
-                    <img src="./assets/strips/strip3.JPG" alt="">
+                    <!-- <img class="d-none d-sm-block" src="./assets/strips/strip1.JPG" alt="" /> -->
+                    <img class="" src="./assets/strips/2strips.png" alt="" />
                 </div>
                 <div class="content">
                     <div class="contact">
@@ -333,27 +344,43 @@
 
             <div id="follow" class="wrapper">
                 <div class="strips">
-                    <img src="./assets/strips/strip1.JPG" alt="" />
-                    <!-- <img src="./assets/strips/strip2.JPG" alt=""> -->
-                    <!-- <img src="./assets/strips/strip3.JPG" alt=""> -->
+                    <img
+                        class="d-none d-sm-block"
+                        src="./assets/strips/strip1.JPG"
+                        alt=""
+                    />
+                    <img
+                        class="d-block d-md-none"
+                        src="./assets/strips/2strips.png"
+                        alt=""
+                    />
                 </div>
                 <div class="content">
                     <div class="follow">
                         <h2 class="add-font text-center">Follow Us</h2>
 
                         <div class="icons">
-                            <a
-                                href="https://m.facebook.com/snosicle/?tsid=0.9138167774242245&source=result"
-                                ><img src="./assets/fb.png" alt=""/>
-							</a>
-                            <a
-                                href="https://instagram.com/snosicles?utm_medium=copy_link"
-                                ><img src="./assets/insta.png" alt=""/>
-							</a>
-                            <a
-                                href="https://www.linkedin.com/company/sweet-chills-fnb"
-                                ><img src="./assets/linkedin.png" alt=""/>
-							</a>
+                            <div>
+                                <a
+                                    href="https://m.facebook.com/snosicle/?tsid=0.9138167774242245&source=result"
+                                    ><img src="./assets/fb.png" alt="" />
+                                </a>
+                                <h5 class="text-center">@snosicle</h5>
+                            </div>
+                            <div>
+                                <a
+                                    href="https://instagram.com/snosicles?utm_medium=copy_link"
+                                    ><img src="./assets/insta.png" alt="" />
+                                </a>
+                                <h5 class="text-center">@snosicles</h5>
+                            </div>
+                            <div>
+                                <a
+                                    href="https://www.linkedin.com/company/sweet-chills-fnb"
+                                    ><img src="./assets/linkedin.png" alt="" />
+                                </a>
+                                <h5 class="text-center">Sweet Chills FnB</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
