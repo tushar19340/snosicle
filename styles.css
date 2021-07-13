@@ -148,7 +148,9 @@ h1.heading {
     width: 10rem;
 }
 
-
+.flavour-card {
+    background-color: white;
+}
 .flavour-card img {
     width: 80%;
     max-width: 400px;
@@ -171,7 +173,7 @@ h1.heading {
     width: 80%;
     max-width: 500px;
     margin: auto;
-
+    background-color: white;
     border-top-right-radius: 50%;
     transition: width 1s;
 }
