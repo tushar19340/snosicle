@@ -51,6 +51,7 @@ body::-webkit-scrollbar {
     position: fixed;
     top: 1rem;
     right: 1rem;
+    background-color: transparent;
 }
 
 
