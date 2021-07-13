@@ -49,8 +49,8 @@ body::-webkit-scrollbar {
 
 .dropdown {
     position: fixed;
-    top: 1rem;
-    left: 1rem;
+    top: 1%;
+    left: 1%;
     background-color: transparent;
 }
 
