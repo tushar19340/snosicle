@@ -29,16 +29,29 @@
 
     <body>
         <div id="ice-bg">
-            <div class="bg-img-top">
+            <div class="bg-top">
                 <div class="bg-img">
                     <img src="./assets/snologo-bg.png" alt="" />
                 </div>
+				<div class="dropdown" style="z-index: 2;">
+					<button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+					  HOME
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+					  <li><a class="dropdown-item" href="#products">Products</a></li>
+					  <li><a class="dropdown-item" href="#flavours">Flavours</a></li>
+					  <li><a class="dropdown-item" href="#about">About</a></li>
+					  <li><a class="dropdown-item" href="#contact">Contact</a></li>
+					  <li><a class="dropdown-item" href="#follow">Follow</a></li>
+					</ul>
+				</div>
             </div>
+
             <div class="img">
                 <img src="./assets/Sno4.jpg" alt="" />
             </div>
 
-            <div class="top-div" style="background-color: #3fd9b4">
+            <div id="products" class="top-div" style="background-color: #3fd9b4">
                 <div class="top-div-wrapper text-center">
                     <h1 class="add-font heading">Our Products</h1>
                 </div>
@@ -69,7 +82,7 @@
                     <div class="row row-cols-1 row-cols-md-2 gy-5">
                         <div class="col">
                             <div class="product-card">
-                                <img src="./assets/Sno7.jpg" alt="" />
+                                <img src="./assets/limited-removebg.png" alt="" />
                                 <div class="product-card-body">
                                     <h2 class="text-center add-font">
                                         Classic box
@@ -88,7 +101,7 @@
 
                         <div class="col">
                             <div class="product-card">
-                                <img src="./assets/limited-bg-remove.png" alt="" />
+                                <img src="./assets/limited-removebg.png" alt="" />
                                 <div class="product-card-body">
                                     <h2 class="text-center add-font">
                                         Limited edition box
@@ -108,7 +121,8 @@
                 </div>
             </div>
 
-            <div class="top-div" style="background-color: #3fd9b4">
+
+            <div id="flavours" class="top-div" style="background-color: #3fd9b4">
                 <div class="top-div-wrapper text-center">
                     <h1 class="add-font heading">Our Flavours</h1>
                 </div>
@@ -240,7 +254,7 @@
                 </div>
             </div>
 
-            <div class="about">
+            <div id="about">
                 <div class="top-div" style="background-color: #82d64c">
                     <div class="top-div-wrapper text-center">
                         <h1 class="add-font heading">About Us</h1>
@@ -290,11 +304,11 @@
                 </div>
             </div>
 
-            <div class="wrapper">
+            <div id="contact" class="wrapper">
                 <div class="strips">
                     <img src="./assets/strips/strip1.JPG" alt="" />
-                    <img src="./assets/strips/strip2.JPG" alt="" />
-                    <!-- <img src="./assets/strips/strip3.JPG" alt=""> -->
+                    <!-- <img src="./assets/strips/strip3.JPG" alt="" /> -->
+                    <img src="./assets/strips/strip3.JPG" alt="">
                 </div>
                 <div class="content">
                     <div class="contact">
@@ -317,7 +331,7 @@
                 </div>
             </div>
 
-            <div class="wrapper">
+            <div id="follow" class="wrapper">
                 <div class="strips">
                     <img src="./assets/strips/strip1.JPG" alt="" />
                     <!-- <img src="./assets/strips/strip2.JPG" alt=""> -->
@@ -330,16 +344,16 @@
                         <div class="icons">
                             <a
                                 href="https://m.facebook.com/snosicle/?tsid=0.9138167774242245&source=result"
-                                ><img src="./assets/fb.png" alt=""
-                            /></a>
+                                ><img src="./assets/fb.png" alt=""/>
+							</a>
                             <a
                                 href="https://instagram.com/snosicles?utm_medium=copy_link"
-                                ><img src="./assets/insta.png" alt=""
-                            /></a>
+                                ><img src="./assets/insta.png" alt=""/>
+							</a>
                             <a
                                 href="https://www.linkedin.com/company/sweet-chills-fnb"
-                                ><img src="./assets/linkedin.png" alt=""
-                            /></a>
+                                ><img src="./assets/linkedin.png" alt=""/>
+							</a>
                         </div>
                     </div>
                 </div>

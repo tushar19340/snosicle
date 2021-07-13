@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -15,7 +19,7 @@ body::-webkit-scrollbar {
     height: 100vh;
     overflow-y: scroll;
     overflow-x: hidden;
-    padding-bottom: 10rem;
+    /* padding-bottom: 10rem; */
 }
 #ice-bg::-webkit-scrollbar{
     width: 15px;
@@ -28,6 +32,10 @@ body::-webkit-scrollbar {
     background: none;
 }
 
+.bg-top{
+    position: relative;
+}
+
 .bg-img {
     width: 100%;
 }
@@ -38,6 +46,13 @@ body::-webkit-scrollbar {
 .img img {
     width: 100%;
 }
+
+.dropdown {
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+}
+
 
 .top-div {
     height: 50vh;
@@ -69,7 +84,7 @@ h1.heading {
     max-width: 200px;
     /* height: 50rem; */
     background-color: white;
-    z-index: -2;
+    /* z-index: -2; */
 }
 
 .strips img {
@@ -80,9 +95,9 @@ h1.heading {
 }
 .content {
     flex: 6;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     width: 100%;
 }
 
@@ -90,12 +105,14 @@ h1.heading {
     text-align: center;
     width: 90%;
     margin: auto;
+    margin-top: 10%;
     font-family: "Roboto", sans-serif;
     font-size: 1.5rem;
 }
 
 .contact {
     position: relative;
+    margin-top: 10%;
 }
 .contact h2 {
     font-size: 3rem;
@@ -129,6 +146,7 @@ h1.heading {
 
 .follow {
     width: 100%;
+    margin-top: 10%;
 }
 .follow h2 {
     font-size: 3rem;
